@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Whisperer & Unit Testing - JEST</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <h2 style="color: cornflowerblue;">Code Whisperer & Unit Testing - JEST</h2>
+
+        <div class="form-group">
+            <h3 style="color: coral;">Calcular promedio</h3>
+            <label for="numbers">Ingresar numeros separados por coma:</label>
+            <input type="text" id="numbers" placeholder="ejemplo:, 1, 2, 3, 4, 5">
+            <button onclick="showAverage()">Calcular promedio</button>
+            <div class="result" id="averageResult"></div>
+        </div>
+
+        <div class="form-group">
+            <h3 style="color: mediumslateblue;">Invertir palabras</h3>
+            <label for="sentence">Escribir:</label>
+            <textarea id="sentence" rows="3" placeholder="ejemplo, hola mundo"></textarea>
+            <button onclick="showReversedWords()">Invertir palabras</button>
+            <div class="result" id="reversedResult"></div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
